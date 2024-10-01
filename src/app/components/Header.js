@@ -62,7 +62,7 @@ const Header = () => {
             <Link href="#contact" className="text-white hover:text-gray-300">
               Contact
             </Link>
-            <button className="px-6 py-2 bg-[#1E3E62] text-white font-bold rounded-lg">Start a project</button>
+            <button className="px-6 py-2 bg-[#1E3E62] text-white font-bold rounded-lg">Start a project.</button>
           </nav>
         </div>
       </div>
