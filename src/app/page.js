@@ -2,6 +2,7 @@
 import LogoMarquee from './components/LogoMarquee';
 import React from 'react';
 import Link from 'next/link';
+import Timeline from './components/Timel';
 
 const Hero = () => {
   return (
@@ -31,6 +32,7 @@ const Hero = () => {
     < LogoMarquee/>
     </div>
     <img src='./bf1.jpg'/>
+    <Timeline/>
     </>
   );
 };
