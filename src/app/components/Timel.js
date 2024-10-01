@@ -16,7 +16,7 @@ export default function Timeline() {
   };
 
   return (
-    <div className="bg-[#000000] text-white py-10 px-4">
+    <div className="bg-[#020a13] text-white py-10 px-4">
       <h2 className="text-4xl font-bold text-center mb-12">Timeline</h2>
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
 

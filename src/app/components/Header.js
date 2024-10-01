@@ -3,6 +3,7 @@
 // components/Header.js
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,18 +14,18 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gradient-to-l from-[#3b70d6] to-[#0d1a76] fixed w-full top-0 left-0 z-50 shadow-lg">
+    <header className="bg-gradient-to-t from-[#020a13] to-[#1E3E62]/90 md:pt-[50px] fixed w-full top-0 left-0 z-50 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <img src='./logo.png' className="h-[20px] md:h-[45px] md:w-[300px]"/>
+          <Image width={250} height={200} src='/logo.png' className=""/>
 
           {/* Hamburger for mobile */}
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
               type="button"
-              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-gray-300 hover:bg-[#426ddd]/80 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-gray-300 hover:bg-[#1E3E62]/80 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
             >
               <span className="sr-only">Open main menu</span>
               <svg
@@ -61,7 +62,7 @@ const Header = () => {
             <Link href="#contact" className="text-white hover:text-gray-300">
               Contact
             </Link>
-            <button className="px-6 py-2 bg-gradient-to-r from-blue-500 to-blue-300 text-black rounded-lg">Start a project</button>
+            <button className="px-6 py-2 bg-[#1E3E62] text-white font-bold rounded-lg">Start a project</button>
           </nav>
         </div>
       </div>
@@ -69,7 +70,7 @@ const Header = () => {
       {/* Mobile menu */}
       {isOpen && (
         <div
-          className={`md:hidden bg-[#426ddd] transition-all duration-500 ease-in-out ${
+          className={`md:hidden bg-[#1E3E62] transition-all duration-500 ease-in-out ${
             isOpen ? 'max-h-96' : 'max-h-0'
           } overflow-hidden`}
         >
