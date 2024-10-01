@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+background-color: rgb(0, 0, 0);
+}
+
+/* styles/globals.css or styles.css */
+@keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-marquee {
+    animation: marquee 10s linear infinite;
+    opacity: 40%;
+    white-space: nowrap; /* Prevents the logos from wrapping */
+  }
+  
