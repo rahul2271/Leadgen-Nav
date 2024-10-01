@@ -7,8 +7,8 @@ const Footer = () => {
     <footer className="bg-gradient-to-r from-[#3b70d6] to-[#0d1a76] text-white py-16 px-8">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="space-y-4">
-          <h3 className="text-4xl font-bold">Let's talk about <span className="text-blue-300">your project</span></h3>
-          <p className="text-lg">Sound good? Let's connect!</p>
+          <h3 className="text-4xl font-bold">Lets talk about <span className="text-blue-300">your project</span></h3>
+          <p className="text-lg">Sound good? Lets connect!</p>
         </div>
         <div className="space-y-2">
           <h4 className="text-xl font-semibold">Connect with us</h4>
