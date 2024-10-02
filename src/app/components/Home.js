@@ -8,7 +8,7 @@ export default function Home(){
 
 
         {/* Hero Content */}
-        <div className="mt-[-50px] md:mt-2 mx-auto md:w-max place-content-center">
+        <div className="mt-[-300px] md:mt-2 mx-auto md:w-max place-content-center">
           <div className="text-blue-300 bg-[#1E3E62]/90  px-4 py-2 mx-auto w-max place-content-center rounded-full font-medium">
             👋 WELCOME BRANDMODE
           </div>
