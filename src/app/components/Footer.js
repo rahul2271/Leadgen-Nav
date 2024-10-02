@@ -1,7 +1,7 @@
 // components/Footer.js
 'use client'
 import React from 'react';
-
+import Link from 'next/link';
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-t from-[#0B192C] to-[#1E3E62]/15 text-white py-16 px-8">
@@ -42,6 +42,12 @@ const Footer = () => {
           </form>
         </div>
       </div>
+      <p className='text-center mt-[55px] text-[12px]'>
+        Website designed and developed by{' '}
+        <Link href="https://www.rchauhan.in" passHref
+         target="_blank" rel="noopener noreferrer">RC Tech Solutions
+        </Link>
+      </p>
     </footer>
   );
 };
