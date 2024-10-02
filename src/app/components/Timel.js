@@ -1,5 +1,6 @@
 'use client'
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Timeline() {
   const timelineVariant = {
@@ -30,7 +31,7 @@ export default function Timeline() {
         >
           <h3 className="text-lg font-semibold">Step 1</h3>
           <div className="flex items-start">
-            <img src="/i1.svg" alt="Icon 1" className="w-8 h-8 mr-4" />
+            <Image width={8} height={8}  src="/i1.svg" alt="Icon 1" className="w-8 h-8 mr-4" />
             <div>
               <h4 className="font-bold">Learn and research your ideal customer.</h4>
               <p>You fill out our onboarding questionnaire to help us learn about your ICP. We conduct additional research to gain insights into your targets’ motivations and pain points.</p>
@@ -49,7 +50,7 @@ export default function Timeline() {
         >
           <h3 className="text-lg font-semibold">Step 2</h3>
           <div className="flex items-start">
-            <img src="/i2.svg" alt="Icon 2" className="w-8 h-8 mr-4" />
+            <Image width={8} height={8} src="/i2.svg" alt="Icon 2" className="w-8 h-8 mr-4" />
             <div>
               <h4 className="font-bold">Set up your email-sending infrastructure and research your target audience.</h4>
               <p>We set up multiple domains and mailboxes, configure technical records, and start warming them up.</p>
@@ -68,7 +69,7 @@ export default function Timeline() {
         >
           <h3 className="text-lg font-semibold">Step 3</h3>
           <div className="flex items-start">
-            <img src="/i3.svg" alt="Icon 3" className="w-8 h-8 mr-4" />
+            <Image width={8} height={8} src="/i3.svg" alt="Icon 3" className="w-8 h-8 mr-4" />
             <div>
               <h4 className="font-bold">Craft your email sequences and build your lead lists.</h4>
               <p>We write messaging angles for your different customer profiles. We build contextual lead lists by looking at buying signals like hiring, ad spend, and industry trends.</p>
@@ -87,7 +88,7 @@ export default function Timeline() {
         >
           <h3 className="text-lg font-semibold">Step 4</h3>
           <div className="flex items-start">
-            <img src="/i4.svg" alt="Icon 4" className="w-8 h-8 mr-4" />
+            <Image width={8} height={8} src="/i4.svg" alt="Icon 4" className="w-8 h-8 mr-4" />
             <div>
               <h4 className="font-bold">Send personalized messages at scale.</h4>
               <p>We leverage AI to tailor our messaging to each prospect, automating our outreach to potential clients without compromising message quality.</p>
