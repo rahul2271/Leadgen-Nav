@@ -18,7 +18,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
          
-          <img alt='LOGO' className='w-[200px] md:w-[300px]' src='/logo.png'/>
+          <img alt='LOGO' className='w-[200px] md:w-[300px]' src='./Logo.png'/>
 
           {/* Hamburger for mobile */}
           <div className="md:hidden">
