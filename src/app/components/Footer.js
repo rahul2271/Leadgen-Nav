@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-t from-[#0B192C] to-[#1E3E62]/15 text-white py-16 px-8">
+    <footer className="bg-gradient-to-t from-[#0B192C] to-[#1E3E62]/1 text-white py-16 px-8">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="space-y-4">
           <h3 className="text-4xl font-bold">Lets talk about <span className="text-blue-300">your project</span></h3>
