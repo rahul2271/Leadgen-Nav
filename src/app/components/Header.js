@@ -3,7 +3,7 @@
 // components/Header.js
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +18,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
          
-          <Image alt='LOGO' width={200} height={200} src='/logo.png'/>
+          <img alt='LOGO' className='w-[200px] md:w-[300px]' src='/logo.png'/>
 
           {/* Hamburger for mobile */}
           <div className="md:hidden">
