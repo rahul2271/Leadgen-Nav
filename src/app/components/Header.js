@@ -17,8 +17,8 @@ const Header = () => {
     <header className="bg-gradient-to-t from-[#020a13] to-[#1E3E62]/90 md:pt-[50px] fixed w-full top-0 left-0 z-50 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          {/* Logo */}
-          <Image alt='LOGO' width={250} height={200} src='/logo.png'/>
+         
+          <Image alt='LOGO' width={200} height={200} src='/logo.png'/>
 
           {/* Hamburger for mobile */}
           <div className="md:hidden">
