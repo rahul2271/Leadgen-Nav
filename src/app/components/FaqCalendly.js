@@ -40,7 +40,7 @@ export default function FAQAndScheduleSection() {
   }, []);
 
   return (
-    <div className="bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center">
+    <div className="bg-[#020a13] text-white min-h-screen flex flex-col items-center justify-center">
       {/* FAQ Section */}
       <div className="w-full max-w-6xl mx-auto px-4 py-16">
         <div className="flex flex-col lg:flex-row justify-center items-start">
@@ -71,7 +71,7 @@ export default function FAQAndScheduleSection() {
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.4 }}
-              className="p-6 bg-gray-800 rounded-lg shadow-lg"
+              className="p-6 bg-[#1E3E62]/50 rounded-lg shadow-lg"
             >
               <h3 className="text-3xl font-bold mb-4">{faqs[activeIndex].question}</h3>
               <p className="text-gray-400">{faqs[activeIndex].answer}</p>
