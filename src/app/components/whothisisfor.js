@@ -9,7 +9,7 @@ const CustomSection = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Who This is For</h2>
           <p className="text-lg max-w-2xl mx-auto">
-            Customized outbound solution to seamlessly streamline your sales department's operations. 
+            Customized outbound solution to seamlessly streamline your sales department operations. 
             Our tailored outbound model precisely aligns with your existing system and seamlessly integrates with your goals.
           </p>
         </div>
@@ -24,7 +24,7 @@ const CustomSection = () => {
           {/* Second Card */}
           <div className="p-6 bg-gray-900 rounded-lg">
             <h3 className="text-xl font-semibold mb-2">Increase Top-of-Funnel Pipeline</h3>
-            <p>Drive more volume with our outbound methods. Our techniques not only secure placement in your prospects' inboxes but also guarantee the seamless delivery of emails without deliverability issues.</p>
+            <p>Drive more volume with our outbound methods. Our techniques not only secure placement in your prospects inboxes but also guarantee the seamless delivery of emails without deliverability issues.</p>
           </div>
 
           {/* Third Card */}

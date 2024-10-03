@@ -51,7 +51,7 @@ export default function Services() {
             <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-semibold">Sales Representative Training & Placement</h3>
               <p className="text-gray-400">
-                From sales enablement training to fractional representative placement, our services ensure a skilled and culturally aligned sales team driving your company's ethos and objectives.
+                From sales enablement training to fractional representative placement, our services ensure a skilled and culturally aligned sales team driving your company ethos and objectives.
               </p>
             </div>
           </div>
