@@ -10,6 +10,7 @@ import CustomSection from './components/whothisisfor';
 import Services from './components/Services';
 import AnimatedSection from './components/Process';
 import FAQAndScheduleSection from './components/FaqCalendly';
+import PartnerSection from './components/Partner';
 
 
 const Hero = () => {
@@ -24,6 +25,7 @@ const Hero = () => {
     <Timeline/>
     <Testimonials/>
     <CustomSection/>
+    <PartnerSection/>
     <Services/>
     <AnimatedSection/>
     <FAQAndScheduleSection/>
