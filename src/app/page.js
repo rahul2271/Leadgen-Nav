@@ -17,7 +17,7 @@ const Hero = () => {
     <>
 
     <Home/>
-    <div className='md:mt-[-100px] mt-[-90px] pb-[50px]'>
+    <div className='md:mt-[-100px] mt-[-150px] pb-[50px]'>
     < LogoMarquee/>
     </div>
     <Image alt='bg' className='z-[-1] mx-auto w-max place-content-center' width={1500} height={700} src='/bf1.jpg'/>
