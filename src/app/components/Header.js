@@ -1,9 +1,7 @@
 // components/Header.js
 'use client'
-// components/Header.js
 import { useState } from 'react';
 import Link from 'next/link';
-
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,8 +15,37 @@ const Header = () => {
     <header className="bg-[#020a13] md:pt-[50px] fixed w-full top-0 left-0 z-50 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-         
-          <img alt='LOGO' className='w-[200px] md:w-[300px]' src='./Logo.png'/>
+
+          {/* Logo on the left */}
+          <div className="flex-shrink-0">
+            <img alt="LOGO" className="w-[200px] md:w-[300px]" src="./Logo.png" />
+          </div>
+
+          {/* Links for desktop (centered) */}
+          <nav className="hidden md:flex space-x-10 flex-1 justify-center">
+            <Link href="#home" className="text-white hover:text-gray-300">
+              Home
+            </Link>
+            <Link href="#services" className="text-white hover:text-gray-300">
+              Services
+            </Link>
+            <Link href="#work" className="text-white hover:text-gray-300">
+              Work
+            </Link>
+            <Link href="#about" className="text-white hover:text-gray-300">
+              About
+            </Link>
+            <Link href="#contact" className="text-white hover:text-gray-300">
+              Contact
+            </Link>
+          </nav>
+
+          {/* Button on the right */}
+          <div className="hidden md:block">
+            <button className="px-6 py-2 bg-[#1E3E62] text-white font-bold rounded-lg">
+              Start a project
+            </button>
+          </div>
 
           {/* Hamburger for mobile */}
           <div className="md:hidden">
@@ -44,26 +71,6 @@ const Header = () => {
               </svg>
             </button>
           </div>
-
-          {/* Links for desktop */}
-          <nav className="hidden md:flex space-x-10 ml-20">
-            <Link href="#home" className="text-white hover:text-gray-300">
-              Home
-            </Link>
-            <Link href="#services" className="text-white hover:text-gray-300">
-              Services
-            </Link>
-            <Link href="#work" className="text-white hover:text-gray-300">
-              Work
-            </Link>
-            <Link href="#about" className="text-white hover:text-gray-300">
-              About
-            </Link>
-            <Link href="#contact" className="text-white hover:text-gray-300">
-              Contact
-            </Link>
-            <button className="px-6 py-2 bg-[#1E3E62] text-white font-bold rounded-lg">Start a project.</button>
-          </nav>
         </div>
       </div>
 
@@ -91,11 +98,8 @@ const Header = () => {
               Contact
             </Link>
           </nav>
-          
         </div>
-        
       )}
-     
     </header>
   );
 };
