@@ -11,6 +11,26 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
 
+  // Close mobile menu when clicking a link
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
+  // Add this function in your component (Header.js or relevant file)
+const smoothScroll = (id) => {
+  const element = document.querySelector(id);
+  const headerOffset = 120; // Adjust based on your fixed header height
+  const elementPosition = element.getBoundingClientRect().top;
+  const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+  window.scrollTo({
+    top: offsetPosition,
+    behavior: 'smooth',
+  });
+};
+
+
+
   return (
     <header className="bg-[#020a13] md:pt-[50px] fixed w-full top-0 left-0 z-50 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -26,26 +46,29 @@ const Header = () => {
             <Link href="#home" className="text-white hover:text-gray-300">
               Home
             </Link>
-            <Link href="#services" className="text-white hover:text-gray-300">
+            <Link  href="#services-section"  className="text-white hover:text-gray-300">
               Services
             </Link>
             <Link href="#work" className="text-white hover:text-gray-300">
-              Work
+              Process
             </Link>
             <Link href="#about" className="text-white hover:text-gray-300">
-              About
+              Results
             </Link>
             <Link href="#contact" className="text-white hover:text-gray-300">
-              Contact
+              FAQs
             </Link>
           </nav>
 
           {/* Button on the right */}
           <div className="hidden md:block">
-            <button className="px-6 py-2 bg-[#1E3E62] text-white font-bold rounded-lg">
-              Start a project
-            </button>
-          </div>
+  <button 
+    className="px-6 py-2 bg-[#1E3E62] text-white font-bold rounded-lg"
+    onClick={() => smoothScroll('#start')}
+  >
+    Start a project
+  </button>
+</div>
 
           {/* Hamburger for mobile */}
           <div className="md:hidden">
@@ -82,20 +105,20 @@ const Header = () => {
           } overflow-hidden`}
         >
           <nav className="flex flex-col items-center space-y-4 py-4">
-            <Link href="#home" className="text-white hover:text-gray-300">
+            <Link href="#home" className="text-white hover:text-gray-300" onClick={closeMenu}>
               Home
             </Link>
-            <Link href="#services" className="text-white hover:text-gray-300">
+            <Link href="#services-section" className="text-white hover:text-gray-300" onClick={closeMenu}>
               Services
             </Link>
-            <Link href="#work" className="text-white hover:text-gray-300">
-              Work
+            <Link href="#work" className="text-white hover:text-gray-300" onClick={closeMenu}>
+              Process
             </Link>
-            <Link href="#about" className="text-white hover:text-gray-300">
-              About
+            <Link href="#about" className="text-white hover:text-gray-300" onClick={closeMenu}>
+              Results
             </Link>
-            <Link href="#contact" className="text-white hover:text-gray-300">
-              Contact
+            <Link href="#contact" className="text-white hover:text-gray-300" onClick={closeMenu}>
+              FAQs
             </Link>
           </nav>
         </div>

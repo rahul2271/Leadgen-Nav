@@ -36,3 +36,22 @@ background-color: #020a13;
 .fade-in-up {
   animation: fadeInUp 0.6s ease-out;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+#services-section {
+  scroll-margin-top: 130px; /* Adjust this value based on your header height */
+}
+#work {
+  scroll-margin-top: 130px; /* Adjust this value based on your header height */
+}
+#about {
+  scroll-margin-top: 130px; /* Adjust this value based on your header height */
+}
+#contact {
+  scroll-margin-top: 130px; /* Adjust this value based on your header height */
+}
+#start {
+  scroll-margin-top: 130px; /* Adjust this value based on your header height */
+}

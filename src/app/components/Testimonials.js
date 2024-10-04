@@ -30,7 +30,7 @@ const Testimonials = () => {
 
   return (
     <>
-      <h2 className=" text-white font-bold text-center text-[30px] md:text-[45px] md:mt-[70px] mt-[25px]">
+      <h2 id="about" className=" text-white font-bold text-center text-[30px] md:text-[45px] md:mt-[70px] mt-[25px]">
         Look at all these fingers we got bending
       </h2>
       <h2 className="text-white font-regular text-center text-[15px] md:text-[25px] md:mt-[10px] mt-[10px]">
@@ -38,7 +38,7 @@ const Testimonials = () => {
       </h2>
       
       {/* Container with spacing around the section */}
-      <div className="min-h-screen flex justify-center items-center mt-[-300px] md:mt-[-150px] p-10 md:p-20">
+      <div className="min-h-screen flex justify-center items-center mt-[-250px] md:mt-[-150px] p-10 md:p-20">
         <motion.div
           key={currentIndex}
           initial={{ opacity: 0, scale: 0.9 }}

@@ -1,6 +1,19 @@
 'use client'
 
 export default function Home() {
+
+      // Add this function in your component (Header.js or relevant file)
+const smoothScroll = (id) => {
+    const element = document.querySelector(id);
+    const headerOffset = 120; // Adjust based on your fixed header height
+    const elementPosition = element.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.scrollY - headerOffset;
+  
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth',
+    });
+  };
     return (
         <>
             <section className="relative bg-[#020a13] min-h-screen text-white flex items-center overflow-hidden">
@@ -29,7 +42,7 @@ export default function Home() {
                             Helping B2B Businesses adding $150k-$1M in pipeline every month with “The AI Outbound Accelerator”
                         </p>
                         <button
-                            onClick={() => { /* handle click event here */ }}
+                            onClick={() => smoothScroll('#start')}
                             className='px-4 py-1 mt-[10px] bg-gradient-to-r from-[#1E3E62] to-[#1E3E62]/90 text-white animate-pulse font-medium rounded-md mx-auto block text-center text-lg'
                         >
                             Schedule a call

@@ -56,7 +56,7 @@ export default function FAQAndScheduleSection() {
   }, []);
 
   return (
-    <div className="bg-[#020a13] mt-[-250px] md:mt-[20px] text-white min-h-screen flex flex-col items-center justify-center">
+    <div id="contact" className="bg-[#020a13] mt-[20px] md:mt-[20px] text-white min-h-screen flex flex-col items-center justify-center">
       {/* FAQ Section */}
       <div className="w-full max-w-6xl mx-auto px-4 py-16">
         <div className="flex flex-col lg:flex-row justify-center items-start">
@@ -97,7 +97,7 @@ export default function FAQAndScheduleSection() {
       </div>
 
       {/* Schedule a Call Section */}
-      <div className="w-full max-w-6xl mx-auto px-4 py-16">
+      <div id="start"  className="w-full max-w-6xl mx-auto px-4 py-16">
         <div className="flex flex-col lg:flex-row justify-center items-start">
           {/* Left Side: Call to Action */}
           <div className="w-full lg:w-1/2 pr-8">
@@ -108,7 +108,7 @@ export default function FAQAndScheduleSection() {
           </div>
 
           {/* Right Side: Calendly Integration */}
-          <div className="w-full lg:w-1/2 mt-8 lg:mt-0">
+          <div  className="w-full lg:w-1/2 mt-8 lg:mt-0">
             <div className="bg-white p-6 shadow-lg rounded-lg">
               {/* Calendly inline widget */}
               <div

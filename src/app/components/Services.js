@@ -1,15 +1,15 @@
-"use client"
+"use client";
 import React from 'react';
 
 export default function Services() {
   return (
-    <div className="min-h-screen bg-[#020a13] text-white">
+    <div id="services-section" className="min-h-screen bg-[#020a13] text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col md:flex-row">
           {/* Left Side - Sticky after reaching below the header */}
           <div className="md:w-1/3 sticky md:top-[120px] top-[75px] h-fit">
             <div className="bg-white p-6 rounded-lg shadow-lg">
-              <h2 className="text-3xl text-[#020a13] font-bold mb-4">Our Services</h2>
+              <h2 className="text-3xl text-[#020a13] font-bold mb-4" >Our Services</h2> {/* Add id here */}
               <p className="text-[#020a13]">
                 Partner with us for immediate sales enhancements and streamlined outreach. Lay the groundwork for sustained B2B success and transformative growth.
               </p>
@@ -17,7 +17,7 @@ export default function Services() {
           </div>
 
           {/* Right Side - Scrollable */}
-          <div className="md:w-2/3 mt-8 md:mt-0 md:ml-12 space-y-8 ">
+          <div className="md:w-2/3 mt-8 md:mt-0 md:ml-12 space-y-8">
             <div className="bg-[#1E3E62]/50 p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-semibold">Consultative Audits and Market Positioning</h3>
               <p className="text-gray-400">
