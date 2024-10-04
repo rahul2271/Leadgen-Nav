@@ -42,9 +42,15 @@ const Footer = () => {
           </form> */}
         </div>
       </div>
-      <p className="text-center pt-[55px] text-[15px]"> © 2024 LeadGen Nav. All rights reserved.</p>
-      <p className='text-center pt-[5px] text-[14.5px]'>
+      <p className="text-center pt-[55px]  text-[15px]"> © 2024 LeadGen Nav. All rights reserved.</p>
+      <p className='hidden md:block text-center pt-[5px] text-[14.5px]'>
         Website designed and developed by{' '}
+        <Link className="font-bold" href="https://www.rchauhan.in" passHref
+         target="_blank" rel="noopener noreferrer">RC Tech Solutions
+        </Link>
+      </p>
+      <p className='block md:hidden text-center pt-[5px] text-[14.5px]'>
+        Website designed and developed by{' '}<br/>
         <Link className="font-bold" href="https://www.rchauhan.in" passHref
          target="_blank" rel="noopener noreferrer">RC Tech Solutions
         </Link>
