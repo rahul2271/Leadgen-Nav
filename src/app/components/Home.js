@@ -17,7 +17,7 @@ export default function Home() {
 
                 <div className="container mx-auto px-8 md:px-5 lg:px-24 relative z-10">
                     {/* Hero Content */}
-                    <div className="mt-[-250px] md:mt-2 mx-auto md:w-max place-content-center">
+                    <div className="mt-[-100px] md:mt-2 mx-auto md:w-max place-content-center">
                         <div className="text-white bg-[#1E3E62]/90 px-4 py-2 mx-auto w-max place-content-center rounded-full font-medium">
                             WELCOME BRANDMODE
                         </div>

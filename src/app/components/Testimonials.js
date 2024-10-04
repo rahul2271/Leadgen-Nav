@@ -33,8 +33,8 @@ const Testimonials = () => {
       <h2 className=" text-white font-bold text-center text-[30px] md:text-[45px] md:mt-[70px] mt-[25px]">
         Look at all these fingers we got bending
       </h2>
-      <h2 className="text-white/50 font-regular text-center text-[15px] md:text-[25px] md:mt-[10px] mt-[10px]">
-        (real replies from prospects in our clients campaigns)
+      <h2 className="text-white font-regular text-center text-[15px] md:text-[25px] md:mt-[10px] mt-[10px]">
+        Real replies from prospects in our clients campaigns
       </h2>
       
       {/* Container with spacing around the section */}
