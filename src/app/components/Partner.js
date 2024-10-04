@@ -38,7 +38,7 @@ export default function PartnerSection() {
               <img src="/target.png" alt="Business Opportunities Icon" className="mb-4 md:h-[50px] h-[50px]" />
               <h3 className="font-bold text-xl">Business Opportunities</h3>
               <p className="mt-2 text-center">
-                Secure qualified new business opportunities monthly through our systematic outreach approach, tailored to highlight your startup's distinct value proposition and market position.
+                Secure qualified new business opportunities monthly through our systematic outreach approach, tailored to highlight your startups distinct value proposition and market position.
               </p>
             </div>
           </div>
