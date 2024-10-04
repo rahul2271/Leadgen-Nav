@@ -7,15 +7,31 @@ export default function FAQAndScheduleSection() {
   const faqs = [
     {
       question: 'How do you ensure success for your clients?',
-      answer: 'We tailor our strategies to fit the specific needs of each client and regularly adjust them for optimal success.',
+      answer: 'We are committed to delivering exceptional results. We take on only a few clients each month, carefully selecting clients we are confident we can support with a 100% success rate. Our approach is grounded in a tried-and-tested model, backed by a track record that speaks for itself.',
     },
     {
       question: 'How do you balance client growth?',
-      answer: 'We scale our approach in a way that ensures sustainable growth, based on detailed market analysis.',
+      answer: 'Your success is our success. We position our client partners at the center of our growth strategy. We have invested in top-notch operations and marketing resources to ensure we provide unwavering support to our clients.',
     },
     {
       question: 'What happens if the outbound strategy doesn’t work?',
-      answer: 'We continuously assess and adjust the strategy based on performance data and feedback to ensure effectiveness.',
+      answer: 'We replicate a proven model, invest in the partnership, and guarantee your satisfaction. In the unlikely event that challenges arise, we are dedicated to working together to find solutions and ensure your success. We will work with your team until we are able get you the desired results.',
+    },
+    {
+      question: 'Is outbound cold email still effective?',
+      answer: 'While many have tried and struggled with cold emailing, we have perfected the art. Email marketing, especially for B2B sales, remains highly effective when executed correctly. Our clients boast an impressive 70% open rate as an average across the board. Cold email is more potent than ever, and we have the expertise to harness its power for your business.',
+    },
+    {
+      question: 'What is required from clients?',
+      answer: 'A minimal and strategic investment of your time 0-3 Months Audit current systems, gather information on target clients, create an offer overview, and participate in generating new pipeline.'
+    },
+    {
+      question: 'What does this partnership entail',
+      answer: 'We learn, work, and collaborate seamlessly with your team, sharing knowledge while maintaining accountability as partners committed to delivering results. We assist in building and expanding your business in exchange for a share in the success.',
+    },
+    {
+      question: 'How much of a time commitment is required?',
+      answer: 'We are fully committed to your success and will invest as much time as necessary to achieve the desired results. As dedicated partners, we complete all tasks without excuses, ensuring your objectives are met.',
     },
     // Add more FAQ items as needed
   ];

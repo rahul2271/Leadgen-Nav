@@ -5,26 +5,42 @@ export default function ScrollSectionWithSubheadings() {
   const sections = [
     {
       id: 1,
-      title: 'Heading 1',
+      title: 'Building Your Custom Outbound Strategy',
       subheadings: [
-        'Subheading 1.1: Detailed description for subheading 1.1.',
-        'Subheading 1.2: Detailed description for subheading 1.2.',
+        'Client Onboarding Documentation:We start by gathering all necessary information about your business to ensure a seamless integration.',
+        '‍Current System Audit:‍Our team conducts a thorough review of your existing systems to identify areas for improvement.',
+        'Messaging + Offer Optimization:We refine your messaging and offers to ensure they resonate with your target audience.',
+        'Understand your Buyer Persona:We help you fine-tune your buyer personas and expand your ICP market reach',
+        'Technical Outbound System Setup:‍Our experts set up and optimize outbound systems tailored to your business needs.',
       ],
     },
     {
       id: 2,
-      title: 'Heading 2',
+      title: 'Compile Data-Based and Refine Buyer Persona',
       subheadings: [
-        'Subheading 2.1: Detailed description for subheading 2.1.',
-        'Subheading 2.2: Detailed description for subheading 2.2.',
-        'Subheading 2.3: Detailed description for subheading 2.3.',
+        'Building Custom Lead List:We gather and analyze data to ensure our strategies align with your ideal customer profile, and build your custom prospecting lead list.'
       ],
     },
     {
       id: 3,
-      title: 'Heading 3',
+      title: 'Custom Outreach Integrations',
       subheadings: [
-        'Subheading 3.1: Detailed description for subheading 3.1.',
+        'Working in Parallel with Your Systems:‍Our solutions are integrated seamlessly with your existing systems, enhancing efficiency without disruption.',
+      ],
+    },
+    {
+      id: 4,
+      title: 'Analyze Market Feedback & Optimize Outreach System',
+      subheadings: [
+        'Strategy Optimization:We continuously analyze market feedback and optimize our strategy, including messaging, channels, and automations, for maximum pipeline growth.',
+      ],
+    },
+    {
+      id: 5,
+      title: 'On Going Opportunities & Expansion',
+      subheadings: [
+        'Sales Enablement:We provide training and develop Standard Operating Procedures (SOPs) to empower your sales team.',
+        'Fractional Sales Development Representative:‍Our services include the development and placement of fractional SDRs to augment your sales efforts.'
       ],
     },
   ];
@@ -33,7 +49,7 @@ export default function ScrollSectionWithSubheadings() {
   const sectionRefs = useRef([]);
 
   // Customizable spacing for sections (sets of subheadings)
-  const sectionSpacing = 'space-y-[-300px]'; // Adjust this to control the gap between different sections
+  const sectionSpacing = 'space-y-[-200px]'; // Adjust this to control the gap between different sections
 
   useEffect(() => {
     const observer = new IntersectionObserver(
