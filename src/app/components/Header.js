@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gradient-to-t from-[#020a13] to-[#1E3E62]/90 md:pt-[50px] fixed w-full top-0 left-0 z-50 shadow-lg">
+    <header className="bg-[#020a13] md:pt-[50px] fixed w-full top-0 left-0 z-50 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
          
@@ -46,7 +46,7 @@ const Header = () => {
           </div>
 
           {/* Links for desktop */}
-          <nav className="hidden md:flex space-x-10 ml-20">
+          <nav className="bg-[#020a13] hidden md:flex space-x-10 text-[20px] ml-20">
             <Link href="#home" className="text-white hover:text-gray-300">
               Home
             </Link>
@@ -62,7 +62,7 @@ const Header = () => {
             <Link href="#contact" className="text-white hover:text-gray-300">
               Contact
             </Link>
-            <button className="px-6 py-2 bg-[#1E3E62] text-white font-bold rounded-lg">Start a project.</button>
+            <button className="px-6 py-2 bg-white text-black font-bold rounded-lg">Start a project.</button>
           </nav>
         </div>
       </div>
