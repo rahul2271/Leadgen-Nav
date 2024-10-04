@@ -64,11 +64,11 @@ export default function ScrollSectionWithSubheadings() {
     <h2 className="text-3xl md:mt-[70px] md:text-5xl text-center text-white font-bold mb-4">Process</h2>
     
     
-    <div className="flex mt-[-150px] md:mt-[-150px] flex-row min-h-screen">
+    <div className="flex mt-[-250px] md:mt-[-150px] flex-row min-h-screen">
     
       
       {/* Left Side: Headings */}
-      <div className="sticky top-0 h-screen w-1/3 bg-[#020a13] text-white flex flex-col justify-center p-8">
+      <div className="sticky top-0 h-screen w-1/3 bg-transparent text-white flex flex-col justify-center p-8">
         {sections.map((section, index) => (
           <div key={section.id} className={`mb-8 transition-all duration-300 ${activeSection === index ? 'text-white font-bold text-2xl' : 'text-gray-400'}`}>
             {section.title}

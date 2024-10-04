@@ -40,7 +40,7 @@ export default function FAQAndScheduleSection() {
   }, []);
 
   return (
-    <div className="bg-[#020a13] text-white min-h-screen flex flex-col items-center justify-center">
+    <div className="bg-[#020a13] mt-[-250px] text-white min-h-screen flex flex-col items-center justify-center">
       {/* FAQ Section */}
       <div className="w-full max-w-6xl mx-auto px-4 py-16">
         <div className="flex flex-col lg:flex-row justify-center items-start">
