@@ -1,7 +1,7 @@
 'use client'
-
-export default function Home() {
-    return (
+import next from "next"
+export default function Home(){
+    return(
         <>
         {/* <img className="" src="./hb.jpg" alt="bg" /> */}
             <section className=" bg-[#020a13] min-h-screen text-white flex items-center ">
@@ -9,7 +9,7 @@ export default function Home() {
 
 
         {/* Hero Content */}
-        <div className="mt-[50px] md:mt-2 mx-auto md:w-max place-content-center">
+        <div className="mt-[-180px] md:mt-2 mx-auto md:w-max place-content-center">
           <div className="text-white bg-[#1E3E62]/90  px-4 py-2 mx-auto w-max place-content-center rounded-full font-medium">
             WELCOME BRANDMODE
           </div>
@@ -26,5 +26,5 @@ export default function Home() {
       
     </section>
         </>
-    );
+    )
 }
