@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-t from-[#0B192C] to-[#1E3E62]/1 text-white py-16 px-8">
+    <footer className="bg-g[#020a13] text-white py-8 px-8">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="space-y-4">
           <h3 className="text-4xl font-bold">Lets talk about <span className="text-blue-300">your project</span></h3>
@@ -35,16 +35,17 @@ const Footer = () => {
             <a href="#" className="hover:text-blue-300">Instagram</a>
             <a href="#" className="hover:text-blue-300">LinkedIn</a>
           </div>
-          <h4 className="text-xl font-semibold">Join our newsletter</h4>
+          {/* <h4 className="text-xl font-semibold">Join our newsletter</h4>
           <form className="flex">
             <input type="email" placeholder="Email Address" className="px-4 py-2 text-black rounded-l-md"/>
             <button type="submit" className="px-4 py-2 bg-blue-500 text-white rounded-r-md">→</button>
-          </form>
+          </form> */}
         </div>
       </div>
-      <p className='text-center mt-[55px] text-[12px]'>
+      <p className="text-center pt-[55px] text-[15px]"> © 2024 LeadGen Nav. All rights reserved.</p>
+      <p className='text-center pt-[5px] text-[14.5px]'>
         Website designed and developed by{' '}
-        <Link href="https://www.rchauhan.in" passHref
+        <Link className="font-bold" href="https://www.rchauhan.in" passHref
          target="_blank" rel="noopener noreferrer">RC Tech Solutions
         </Link>
       </p>
