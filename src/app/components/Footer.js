@@ -10,9 +10,9 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="space-y-4">
           <h3 className="text-4xl font-bold">
-            Let's talk about <span className="text-blue-300">your project</span>
+            Let&apos;s talk about <span className="text-blue-300">your project</span>
           </h3>
-          <p className="text-lg">Sound good? Let's connect!</p>
+          <p className="text-lg">Sound good? Let&apos;s connect!</p>
         </div>
         <div className="space-y-2">
           <h4 className="text-xl font-semibold">Connect with us</h4>
