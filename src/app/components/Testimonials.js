@@ -39,7 +39,7 @@ const Testimonials = () => {
       </h2>
       
       {/* Container with spacing around the section */}
-      <div className="min-h-screen flex justify-center items-center mt-[-250px] md:mt-[-200px] p-10 md:p-20">
+      <div className="min-h-screen flex justify-center items-center mt-[-250px] md:mt-[-160px] p-10 md:p-20">
         <motion.div
           key={currentIndex}
           initial={{ opacity: 0, scale: 0.9 }}
