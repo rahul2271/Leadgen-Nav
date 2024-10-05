@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Services() {
   return (
-    <div id="services-section" className="min-h-screen bg-[#020a13] text-white">
+    <div id="services-section" className="md:mt-[50px] min-h-screen bg-[#020a13] text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col md:flex-row">
           {/* Left Side - Sticky after reaching below the header */}

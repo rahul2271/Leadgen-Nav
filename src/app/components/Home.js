@@ -32,7 +32,7 @@ const smoothScroll = (id) => {
                     {/* Hero Content */}
                     <div className="mt-[-100px] md:mt-2 mx-auto md:w-max place-content-center">
                         <div className="text-white bg-[#1E3E62]/90 px-4 py-2 mx-auto w-max place-content-center rounded-full font-medium">
-                            WELCOME BRANDMODE
+                            Welcome LeadGen Nav
                         </div>
                         <h1 className="mt-6 text-4xl md:text-5xl text-center lg:text-7xl font-extrabold leading-tight">
                             We build Outbound Systems <br />
