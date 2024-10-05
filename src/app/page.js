@@ -11,6 +11,8 @@ import Services from './components/Services';
 import AnimatedSection from './components/Process';
 import FAQAndScheduleSection from './components/FaqCalendly';
 import PartnerSection from './components/Partner';
+import Testimonial from './components/testimo';
+
 
 
 const Hero = () => {
@@ -28,7 +30,9 @@ const Hero = () => {
     <PartnerSection/>
     <AnimatedSection/>
     <Testimonials/>
+    
     <FAQAndScheduleSection/>
+    <Testimonial/>
     
     </>
   );

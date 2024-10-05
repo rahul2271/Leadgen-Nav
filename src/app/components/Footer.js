@@ -12,12 +12,12 @@ const Footer = () => {
         </div>
         <div className="space-y-2">
           <h4 className="text-xl font-semibold">Connect with us</h4>
-          <p><a href="mailto:hello@brandmode.com" className="flex items-center space-x-2">
-            <span>&#9993;</span> <span>hello@brandmode.com</span></a></p>
-          <p><a href="tel:+18888075000" className="flex items-center space-x-2">
-            <span>&#128172;</span> <span>(888) 807-5000</span></a></p>
+          <p><a href="mailto:preetpal@leadgennav.com" className="flex items-center space-x-2">
+            <span>&#9993;</span> <span>preetpal@leadgennav.com</span></a></p>
+          <p><a href="tel:+919315047766" className="flex items-center space-x-2">
+            <span>&#128172;</span> <span>+91 931-504-7766</span></a></p>
         </div>
-        <div className="space-y-2">
+        {/* <div className="space-y-2">
           <h4 className="text-xl font-semibold">Address</h4>
           <p className="flex items-center space-x-2">
             <span>&#127759;</span> 
@@ -26,14 +26,14 @@ const Footer = () => {
           <p className="flex items-center space-x-2">
             <span>&#128337;</span> <span>Monday → Friday 9am to 5pm</span>
           </p>
-        </div>
+        </div> */}
         <div className="space-y-4">
           <h4 className="text-xl font-semibold">Follow us</h4>
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-blue-300">Facebook</a>
-            <a href="#" className="hover:text-blue-300">Twitter</a>
-            <a href="#" className="hover:text-blue-300">Instagram</a>
-            <a href="#" className="hover:text-blue-300">LinkedIn</a>
+            {/* <a href="#" className="hover:text-blue-300">Facebook</a> */}
+            <a href="https://x.com/LeadGenNav" className="hover:text-blue-300">Twitter</a>
+            {/* <a href="#" className="hover:text-blue-300">Instagram</a> */}
+            <a href="https://www.linkedin.com/in/preetpal-singh-2b1046308/" className="hover:text-blue-300">LinkedIn</a>
           </div>
           {/* <h4 className="text-xl font-semibold">Join our newsletter</h4>
           <form className="flex">
