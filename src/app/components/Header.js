@@ -43,7 +43,7 @@ const smoothScroll = (id) => {
 
           {/* Links for desktop (centered) */}
           <nav className="hidden md:flex text-[18px] space-x-10 flex-1 justify-center">
-            <Link href="#home" className="text-white hover:text-gray-300">
+            <Link href="./" className="text-white hover:text-gray-300">
               Home
             </Link>
             <Link  href="#services-section"  className="text-white hover:text-gray-300">
