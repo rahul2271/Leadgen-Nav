@@ -66,7 +66,7 @@ const smoothScroll = (id) => {
     className="px-6 py-2 bg-blue-200 text-black font-bold rounded-lg"
     onClick={() => smoothScroll('#start')}
   >
-    Start a project
+    Book a call !
   </button>
 </div>
 
