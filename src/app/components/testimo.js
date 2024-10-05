@@ -13,7 +13,7 @@ const testimonials = [
 const Testimonial = () => {
   return (
     <>
-        <h2 className="md:mt-[-250px] mt-[-250px] container mx-auto text-center text-white md:text-[45px] text-[30px] font-bold mb-4">Our Testimonials</h2>
+        <h2 className="md:mt-[-250px] mt-[-250px] container mx-auto text-center text-white md:text-[55px] text-[30px] font-bold mb-4">Our Testimonials</h2>
 
     <div className="mt-[20px] relative flex items-center justify-center overflow-hidden py-20 bg-transparent">
         

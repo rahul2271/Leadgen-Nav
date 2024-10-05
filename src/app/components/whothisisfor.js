@@ -7,8 +7,8 @@ const CustomSection = () => {
     <section className="bg-[#020a13] md:mt-[50px] mt-[10px] text-white py-16">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4">Who This is For</h2>
-          <p className="text-white/50 text-[10px] md:text-[15px] max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-[55px] font-bold mb-4">Who This is For</h2>
+          <p className="text-white/70 text-[10px] md:text-[20px] md:mb-[100px] max-w-5xl mx-auto">
             Customized outbound solution to seamlessly streamline your sales department operations. 
             Our tailored outbound model precisely aligns with your existing system and seamlessly integrates with your goals.
           </p>

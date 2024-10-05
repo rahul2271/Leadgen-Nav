@@ -30,10 +30,11 @@ const Testimonials = () => {
 
   return (
     <>
-      <h2 id="about" className=" text-white font-bold text-center text-[30px] md:text-[45px] md:mt-[70px] mt-[25px]">
+
+      <h2 id="about" className=" text-white font-bold text-center text-[30px] md:text-[55px] md:mt-[70px] mt-[25px]">
         Look at all these fingers we got bending
       </h2>
-      <h2 className="text-white font-regular text-center text-white/50 text-[10px] md:text-[15px] md:mt-[10px] mt-[10px]">
+      <h2 className="text-white font-regular text-center text-white/70 text-[10px] md:text-[20px] md:mt-[10px] mt-[10px]">
         Real replies from prospects in our clients campaigns
       </h2>
       

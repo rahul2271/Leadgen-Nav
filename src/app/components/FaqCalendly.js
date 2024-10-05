@@ -71,7 +71,7 @@ export default function FAQAndScheduleSection() {
         <div className="flex flex-col lg:flex-row justify-center items-start">
           {/* Left Side: Call to Action */}
           <div className="w-full lg:w-1/2 pr-8">
-            <h2 className="text-3xl font-bold mb-8">Schedule a Call</h2>
+            <h2 className="text-3xl md:text-[55px] font-bold mb-8">Schedule a Call</h2>
             <p className="text-gray-400 mb-4">
               Schedule a discovery call with us to explore tailored B2B outbound
               strategies and discuss how we can help you grow.
@@ -97,7 +97,7 @@ export default function FAQAndScheduleSection() {
         <div className="flex flex-col lg:flex-row justify-center items-start">
           {/* Left Side: FAQ Questions */}
           <div className="w-full lg:w-1/2 pr-8">
-            <h2 className="text-3xl font-bold mb-8">FAQs</h2>
+            <h2 className="text-3xl md:text-[55px] font-bold mb-8">FAQs</h2>
             <div className="space-y-4">
               {faqs.map((faq, index) => (
                 <div key={index}>

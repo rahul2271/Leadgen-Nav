@@ -75,8 +75,8 @@ export default function ScrollSectionWithSubheadings() {
   return (
     <>
       <div id="work">
-        <h2 className="text-3xl md:mt-[110px] md:text-5xl text-center text-white font-bold mb-4">Our Process</h2>
-        <p className="text-white/50 text-[10px] md:text-[15px] text-white text-center max-w-2xl mx-auto mb-12">
+        <h2 className="text-3xl md:mt-[110px] md:text-[55px] text-center text-white font-bold mb-4">Our Process</h2>
+        <p className="text-white/70 text-[10px] md:text-[20px] text-white text-center max-w-2xl mx-auto mb-12">
           Providing a personalized solution aimed at optimizing your outbound strategy, ensuring a tailored approach that aligns seamlessly with your goals and aspirations.
         </p>
 
