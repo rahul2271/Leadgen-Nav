@@ -100,11 +100,11 @@ const smoothScroll = (id) => {
       {/* Mobile menu */}
       {isOpen && (
         <div
-          className={`md:hidden bg-[#1E3E62] transition-all duration-500 ease-in-out ${
+          className={`md:hidden bg-[#1E3E62]/20 transition-all duration-500 ease-in-out ${
             isOpen ? 'max-h-96' : 'max-h-0'
           } overflow-hidden`}
         >
-          <nav className="flex flex-col items-center space-y-4 py-4">
+          <nav className="flex flex-col text-light items-center space-y-4 py-4">
             <Link href="#home" className="text-white hover:text-gray-300" onClick={closeMenu}>
               Home
             </Link>
