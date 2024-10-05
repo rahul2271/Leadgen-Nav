@@ -33,12 +33,12 @@ const Testimonials = () => {
       <h2 id="about" className=" text-white font-bold text-center text-[30px] md:text-[45px] md:mt-[70px] mt-[25px]">
         Look at all these fingers we got bending
       </h2>
-      <h2 className="text-white font-regular text-center text-white/50 text-[10px] md:text-[25px] md:mt-[10px] mt-[10px]">
+      <h2 className="text-white font-regular text-center text-white/50 text-[10px] md:text-[15px] md:mt-[10px] mt-[10px]">
         Real replies from prospects in our clients campaigns
       </h2>
       
       {/* Container with spacing around the section */}
-      <div className="min-h-screen flex justify-center items-center mt-[-250px] md:mt-[-150px] p-10 md:p-20">
+      <div className="min-h-screen flex justify-center items-center mt-[-250px] md:mt-[-200px] p-10 md:p-20">
         <motion.div
           key={currentIndex}
           initial={{ opacity: 0, scale: 0.9 }}

@@ -76,11 +76,11 @@ export default function ScrollSectionWithSubheadings() {
     <>
       <div id="work">
         <h2 className="text-3xl md:mt-[110px] md:text-5xl text-center text-white font-bold mb-4">Our Process</h2>
-        <p className="text-white/50 text-[10px] md:text-[25px] text-white text-center max-w-2xl mx-auto mb-12">
+        <p className="text-white/50 text-[10px] md:text-[15px] text-white text-center max-w-2xl mx-auto mb-12">
           Providing a personalized solution aimed at optimizing your outbound strategy, ensuring a tailored approach that aligns seamlessly with your goals and aspirations.
         </p>
 
-        <div className="flex mt-[140px] md:mt-[50px] flex-row min-h-screen">
+        <div className="flex mt-[140px] md:mt-[150px] flex-row min-h-screen">
 
           {/* Left Side: Headings, Hidden on Mobile */}
           <div className="sticky top-0 h-screen w-1/3 bg-transparent text-white flex-col justify-center p-8 hidden md:flex">
