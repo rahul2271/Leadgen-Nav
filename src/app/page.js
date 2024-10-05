@@ -25,7 +25,7 @@ const Hero = () => {
     </div>
     <Image alt='bg' className='z-[-1] mx-auto w-max place-content-center' width={1500} height={700} src='/bf1.jpg'/>
     <Timeline/>
-    <h2 className="md:mt-[150px] container mx-auto text-center text-white md:text-[55px] text-[25px] font-bold mb-4">We Got 70+ appointments for one of our clients in just 14 days</h2>
+    <h2 className="md:mt-[150px] container mx-auto text-center text-white md:text-[50px] text-[25px] font-bold mb-4">We Got 70+ appointments for one of our clients in just 14 days</h2>
     <Image alt='bg' className='z-[-1] mx-auto w-max place-content-center' width={1000} height={700} src='/tedrr.webp'/>
 
     <CustomSection/>
