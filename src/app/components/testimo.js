@@ -113,45 +113,26 @@
 import React from 'react';
 
 const testimonials = [
-  {
-    id: 1,
-    name: 'John Doe',
-    text: 'This service was fantastic! I highly recommend it to everyone.',
-  },
-  {
-    id: 2,
-    name: 'Jane Smith',
-    text: 'A wonderful experience! I will definitely use this again.',
-  },
-  {
-    id: 3,
-    name: 'Sam Johnson',
-    text: 'Exceptional quality and great customer support.',
-  },
-  {
-    id: 4,
-    name: 'Lisa Wong',
-    text: 'I am very satisfied with the results. Thank you!',
-  },
-  {
-    id: 5,
-    name: 'Mike Brown',
-    text: 'An amazing service that exceeded my expectations.',
-  },
+  { text: 'I have been a client of LeadGen Nav for a bit less than a year. During this time, we generated over a hundred meetings that resulted in 14 client projects and over $350k generated.', author: 'Niklas Konstantin Rabanus, CEO at KONUS' },
+  { text: 'LGN is a lead generation wizard! Thanks to his skills, I was able to land big contracts with important affiliates for Podly. Highly recommend his services!', author: 'Loïc R., Founder & CEO at Podly' },
+  { text: 'A real pleasure to work with LeadGen Nav and learn from them. Very intelligent guys, recommend him highly 👍', author: 'Amme Altimimi, We Quest' },
+  { text: 'I wanted to express my gratitude to Preetpal for being an amazing mentor who has greatly assisted me in mastering prospecting tools. His support has had a significant impact on enhancing my skills.', author: 'Oceane Demol, GrowthFlow Agency' },
+  { text: 'LeadGen Nav team excels at creating value-first offers. They are true cold email operators with thousands of emails under their belt.', author: 'Ben Crane, Founder' },
 ];
 
 const Testimonials = () => {
   return (
-    <div className="bg-[#020a13] p-6 rounded-lg text-white">
-      <h2 className="text-2xl font-bold mb-4">What Our Clients Say</h2>
+    <div className="mt-[-300px] bg-transparent p-6 rounded-lg text-white">
+      <h2 className="text-[25px] md:text-[55px] text-center font-bold mb-4">What Our Clients Say</h2>
       <div className="flex overflow-x-auto space-x-4 scrollbar-hide">
         {testimonials.map((testimonial) => (
           <div
             key={testimonial.id}
-            className="min-w-[300px] p-4 bg-white/10 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+            className="min-w-[400px] p-10 bg-white text-black rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
           >
             <p className="mb-2">"{testimonial.text}"</p>
-            <h4 className="font-semibold">- {testimonial.name}</h4>
+            <h4 className="font-semibold">- {testimonial.author}</h4>
+            
           </div>
         ))}
       </div>
