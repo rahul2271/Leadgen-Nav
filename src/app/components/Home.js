@@ -36,7 +36,7 @@ const smoothScroll = (id) => {
                         </div> */}
                         <h1 className="mt-6 text-4xl md:text-5xl text-center lg:text-7xl font-extrabold leading-tight">
                         We build <span className="text-blue-300">Outbound Systems</span> <br />
-                        That <span className="text-blue-300">sells for you.</span>
+                        that <span className="text-blue-300">Sells for You.</span>
                         </h1>
                         <p className="text-center font-light mt-[20px]">
                         Helping B2B Businesses adding $350k-$2M in pipeline on Autopilot with “The AI Outbound Accelerator”
