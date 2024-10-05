@@ -64,7 +64,7 @@ export default function FAQAndScheduleSection() {
   return (
     <div
       
-      className="bg-[#020a13] mt-[-70px] md:mt-[50px] text-white min-h-screen flex flex-col items-center justify-center"
+      className="bg-[#020a13] mt-[-10px] md:mt-[50px] text-white min-h-screen flex flex-col items-center justify-center"
     >
       {/* Schedule a Call Section */}
       <div id="start" className="w-full max-w-6xl mx-auto px-4 py-16">
