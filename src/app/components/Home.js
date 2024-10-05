@@ -43,7 +43,7 @@ const smoothScroll = (id) => {
                         </p>
                         <button
                             onClick={() => smoothScroll('#start')}
-                            className='px-10 py-2 mt-[10px] md:mt-[60px] bg-blue-200 text-black text-[25px] animate-pulse font-bold rounded-[50px] mx-auto block text-center text-lg'
+                            className='px-8 py-3 mt-[10px] md:mt-[60px] bg-gradient-to-r from-[#1E3E62] to-[#1E3E62]/90 text-white animate-pulse font-medium rounded-md mx-auto block text-center md:text-xl'
                         >
                             Schedule a call
                         </button>
