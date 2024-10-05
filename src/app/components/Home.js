@@ -16,7 +16,7 @@ const smoothScroll = (id) => {
   };
     return (
         <>
-            <section className="relative bg-[#020a13] min-h-screen text-white flex items-center overflow-hidden">
+            <section className="relative bg-transparent min-h-screen text-white flex items-center overflow-hidden">
                 {/* Video Background */}
                 {/* <video
                     className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
@@ -28,7 +28,7 @@ const smoothScroll = (id) => {
                     Your browser does not support the video tag.
                 </video> */}
 
-                <div className="container mx-auto px-8 md:px-5 lg:px-24 relative z-10">
+                <div className="container mx-auto px-8 md:px-5 lg:px-24 relative ">
                     {/* Hero Content */}
                     <div className="mt-[-100px] md:mt-2 mx-auto md:w-max place-content-center">
                         <div className="text-white bg-[#1E3E62]/90 px-4 py-2 mx-auto w-max place-content-center rounded-full font-medium">

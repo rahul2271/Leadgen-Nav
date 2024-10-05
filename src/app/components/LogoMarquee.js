@@ -14,7 +14,10 @@ const logos = [
 
 const LogoMarquee = () => {
   return (
-    <div className="overflow-hidden">
+    <>
+        <h2 className="md:mt-[50px] mt-[-250px] container mx-auto text-center text-white md:text-[45px] text-[20px] font-bold mb-4">Brands we've connected our Clients with</h2>
+
+    <div className="opacity-50 md:mt-[50px] overflow-hidden">
       <div className="flex animate-marquee">
         {logos.concat(logos).map((logo, index) => (
           <div key={index} className="flex-shrink-0 mx-[50px]">
@@ -23,6 +26,7 @@ const LogoMarquee = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 
