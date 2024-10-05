@@ -15,7 +15,9 @@ const logos = [
 const LogoMarquee = () => {
   return (
     <>
-        <h2 className="md:mt-[100px] mt-[-200px] container mx-auto text-center text-white/50 md:text-white/50 md:text-[24px] text-[15px] font-bold mb-4">Brands we have connected our Clients with</h2>
+<h2 className="md:mt-[100px] mt-[-200px] container mx-auto text-center text-white/50 md:text-white/50 md:text-[24px] text-[15px] font-bold mb-4 underline decoration-white/50">
+  Brands we have connected our Clients with
+</h2>
 
     <div className="opacity-50 md:mt-[20px] overflow-hidden">
       <div className="flex animate-marquee">
