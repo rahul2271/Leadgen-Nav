@@ -4,8 +4,8 @@ export default function PartnerSection() {
     return (
       <section className="bg-[#020a13] text-white py-16">
         <div className="container mx-auto text-center">
-          <h2 className="text-5xl font-bold mb-4">Partner With Us</h2>
-          <p className="text-lg max-w-2xl mx-auto mb-12">
+          <h2 className="md:text-[45px] text-[40px] font-bold mb-4">Partner With Us</h2>
+          <p className=" max-w-2xl text-white/50 text-[10px] md:text-[25px] mx-auto mb-12">
             Partner with us for immediate sales enhancements and streamlined outreach. Lay the groundwork for sustained B2B success and transformative growth.
           </p>
   

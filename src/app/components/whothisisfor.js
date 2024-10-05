@@ -8,7 +8,7 @@ const CustomSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">Who This is For</h2>
-          <p className="text-lg max-w-2xl mx-auto">
+          <p className="text-white/50 text-[10px] md:text-[25px] max-w-2xl mx-auto">
             Customized outbound solution to seamlessly streamline your sales department operations. 
             Our tailored outbound model precisely aligns with your existing system and seamlessly integrates with your goals.
           </p>
