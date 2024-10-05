@@ -92,7 +92,7 @@ export default function ScrollSectionWithSubheadings() {
           </div>
 
           {/* Right Side: Subheadings with Titles on Mobile */}
-          <div className="w-full md:w-2/3 p-8 space-y-4">
+          <div className="mt-[-100px] w-full md:w-2/3 p-8 space-y-4">
             {sections.map((section, index) => (
               <div
                 key={section.id}

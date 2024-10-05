@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
@@ -26,21 +26,20 @@ export default function FAQAndScheduleSection() {
       answer: 'A minimal and strategic investment of your time 0-3 Months Audit current systems, gather information on target clients, create an offer overview, and participate in generating new pipeline.'
     },
     {
-      question: 'What does this partnership entail',
+      question: 'What does this partnership entail?',
       answer: 'We learn, work, and collaborate seamlessly with your team, sharing knowledge while maintaining accountability as partners committed to delivering results. We assist in building and expanding your business in exchange for a share in the success.',
     },
     {
       question: 'How much of a time commitment is required?',
       answer: 'We are fully committed to your success and will invest as much time as necessary to achieve the desired results. As dedicated partners, we complete all tasks without excuses, ensuring your objectives are met.',
     },
-    // Add more FAQ items as needed
   ];
 
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(null); // Updated to allow collapsing of questions
 
   // Handle selecting FAQ
   const selectFAQ = (index) => {
-    setActiveIndex(index);
+    setActiveIndex(activeIndex === index ? null : index); // Toggle FAQ on click
   };
 
   // Calendly Widget Integration with useEffect
@@ -65,39 +64,40 @@ export default function FAQAndScheduleSection() {
             <h2 className="text-3xl font-bold mb-8">FAQs</h2>
             <div className="space-y-4">
               {faqs.map((faq, index) => (
-                <div
-                  key={index}
-                  className={`cursor-pointer py-4 border-b-2 ${
-                    activeIndex === index
-                      ? 'text-white font-semibold border-white'
-                      : 'text-gray-400 border-gray-700'
-                  }`}
-                  onClick={() => selectFAQ(index)}
-                >
-                  {faq.question}
+                <div key={index}>
+                  <div
+                    className={`cursor-pointer py-4 border-b-2 ${
+                      activeIndex === index
+                        ? 'text-white font-semibold border-white'
+                        : 'text-gray-400 border-gray-700'
+                    }`}
+                    onClick={() => selectFAQ(index)}
+                  >
+                    {faq.question}
+                  </div>
+
+                  {/* Conditionally Render Answer below the Question */}
+                  {activeIndex === index && (
+                    <motion.div
+                      initial={{ opacity: 0, height: 0 }}
+                      animate={{ opacity: 1, height: 'auto' }}
+                      transition={{ duration: 0.4 }}
+                      className="overflow-hidden"
+                    >
+                      <div className="p-4 bg-[#1E3E62]/50 rounded-lg shadow-lg mt-2">
+                        <p className="text-white">{faq.answer}</p>
+                      </div>
+                    </motion.div>
+                  )}
                 </div>
               ))}
             </div>
-          </div>
-
-          {/* Right Side: FAQ Answers with Animation */}
-          <div className="w-full lg:w-1/2 lg:pl-8 mt-8 lg:mt-0">
-            <motion.div
-              key={activeIndex}
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.4 }}
-              className="p-6 bg-[#1E3E62]/50 rounded-lg shadow-lg"
-            >
-              <h3 className="text-3xl font-bold mb-4">{faqs[activeIndex].question}</h3>
-              <p className="text-gray-400">{faqs[activeIndex].answer}</p>
-            </motion.div>
           </div>
         </div>
       </div>
 
       {/* Schedule a Call Section */}
-      <div id="start"  className="w-full max-w-6xl mx-auto px-4 py-16">
+      <div id="start" className="w-full max-w-6xl mx-auto px-4 py-16">
         <div className="flex flex-col lg:flex-row justify-center items-start">
           {/* Left Side: Call to Action */}
           <div className="w-full lg:w-1/2 pr-8">
@@ -108,7 +108,7 @@ export default function FAQAndScheduleSection() {
           </div>
 
           {/* Right Side: Calendly Integration */}
-          <div  className="w-full lg:w-1/2 mt-8 lg:mt-0">
+          <div className="w-full lg:w-1/2 mt-8 lg:mt-0">
             <div className="bg-white p-6 shadow-lg rounded-lg">
               {/* Calendly inline widget */}
               <div
@@ -123,4 +123,3 @@ export default function FAQAndScheduleSection() {
     </div>
   );
 }
-
