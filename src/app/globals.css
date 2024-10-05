@@ -68,7 +68,7 @@ html {
 }
 
 .animate-marquee {
-  animation: marquee 30s linear infinite;
+  animation: marquee 20s linear infinite;
   opacity: 1; /* Ensure opacity is set to 1 */
   filter: none; /* Ensure no filter is applied */
 }
