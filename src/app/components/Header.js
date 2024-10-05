@@ -42,7 +42,7 @@ const smoothScroll = (id) => {
           </div>
 
           {/* Links for desktop (centered) */}
-          <nav className="hidden md:flex space-x-10 flex-1 justify-center">
+          <nav className="hidden md:flex text-[18px] space-x-10 flex-1 justify-center">
             <Link href="#home" className="text-white hover:text-gray-300">
               Home
             </Link>
@@ -63,7 +63,7 @@ const smoothScroll = (id) => {
           {/* Button on the right */}
           <div className="hidden md:block">
   <button 
-    className="px-6 py-2 bg-[#1E3E62] text-white font-bold rounded-lg"
+    className="px-6 py-2 bg-blue-200 text-black font-bold rounded-lg"
     onClick={() => smoothScroll('#start')}
   >
     Start a project

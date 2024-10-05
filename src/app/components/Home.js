@@ -35,15 +35,15 @@ const smoothScroll = (id) => {
                             Welcome LeadGen Nav
                         </div> */}
                         <h1 className="mt-6 text-4xl md:text-5xl text-center lg:text-7xl font-extrabold leading-tight">
-                            We build Outbound Systems <br />
-                            That sells for you.
+                        We build <span className="text-blue-300">Outbound Systems</span> <br />
+                        That <span className="text-blue-300">sells for you.</span>
                         </h1>
                         <p className="text-center font-light mt-[20px]">
                         Helping B2B Businesses adding $350k-$2M in pipeline on Autopilot with “The AI Outbound Accelerator”
                         </p>
                         <button
                             onClick={() => smoothScroll('#start')}
-                            className='px-10 py-5 mt-[10px] md:mt-[60px] bg-white text-black text-[25px] animate-pulse font-medium rounded-[50px] mx-auto block text-center text-lg'
+                            className='px-10 py-2 mt-[10px] md:mt-[60px] bg-blue-200 text-black text-[25px] animate-pulse font-bold rounded-[50px] mx-auto block text-center text-lg'
                         >
                             Schedule a call
                         </button>
