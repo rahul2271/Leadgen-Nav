@@ -122,7 +122,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <div className="mt-[-300px] bg-transparent p-6 rounded-lg text-white">
+    <div className="mt-[-300px] md:mt-[-250px] bg-transparent p-6 rounded-lg text-white">
       <h2 className="text-[25px] md:text-[55px] text-center font-bold mb-4">What Our Clients Say</h2>
       <div className="flex overflow-x-auto space-x-4 scrollbar-hide">
         {testimonials.map((testimonial) => (
