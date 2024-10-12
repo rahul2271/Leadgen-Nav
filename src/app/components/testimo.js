@@ -128,7 +128,7 @@ const Testimonials = () => {
         {testimonials.map((testimonial) => (
           <div
             key={testimonial.id}
-            className="min-w-[400px] p-10 bg-white text-black rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+            className="min-w-[300px] p-10 bg-white text-black rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
           >
             <p className="mb-2">{testimonial.text}</p>
             <h4 className="font-semibold">- {testimonial.author}</h4>
